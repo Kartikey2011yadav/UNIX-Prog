@@ -52,5 +52,3 @@ Since grep doesn't work over directory names, an error message would be displaye
 For any filenames, each of its lines are matched and outputted on the standard output with the filename prepended.
 
 Since the filename foo occurres as the last argument, every one of its line would be displayed too in a similar manner, but after the contents of all the hidden files listed before it are displayed.
-
-
