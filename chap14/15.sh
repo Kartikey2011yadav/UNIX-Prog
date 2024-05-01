@@ -5,7 +5,7 @@
 TARGET_FILE="$2"
 TARGET_DIR="$1"
 # use an if-else statement to check if the file exists.
-if tmp="$(find "$1" -name "$2")" && [[ -n "$tmp" ]]
+if tmp="$(find $TARGET_DIR -name $TARGET_FILE)" && [[ -n "$tmp" ]]
 then
     echo "$TARGET_FILE exists."
 else
