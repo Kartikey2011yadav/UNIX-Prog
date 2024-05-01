@@ -3,5 +3,5 @@
 
 for f in `ls *.c`
 do
-  echo "$f "
+  sed -i -e  's/^\s?\/\*.*\*\/$//g' "$f"
 done
