@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/bin/sh
 echo "Enter String:"
 read str
 rev_str=`echo $str | rev`
