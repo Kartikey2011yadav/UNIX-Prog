@@ -2,7 +2,7 @@
 # Replace a Pattern in a File
 
 read -p "Enter filename: " filename
-read -p "Enter a pattern to replace: " pattern
+read -p "Enter a pattern to be replace: " pattern
 read -p "Enter new pattern: " new_pattern
 grep -q $pattern $filename
 if [ $? -eq 0 ]; then
