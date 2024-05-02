@@ -1,4 +1,5 @@
 #!/bin/sh
+# print fibonachi series 
 echo "Enter number of terms:"
 read n
 i=0
