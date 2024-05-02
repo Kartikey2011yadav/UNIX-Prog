@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/bin/sh
 echo "Enter number of terms:"
 read n
 i=0
