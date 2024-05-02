@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/bin/sh
 echo "Enter number:"
 read n
 temp=$n
