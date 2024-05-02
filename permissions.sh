@@ -14,4 +14,5 @@ echo "Executable"
 fi
 else
 echo "Error! The file $file does not exist."
+exit 1
 fi
