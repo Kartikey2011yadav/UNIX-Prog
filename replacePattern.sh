@@ -1,5 +1,5 @@
 #!/bin/bash
-# Replace a Pattern in a Fille
+# Replace a Pattern in a File
 
 read -p "Enter filename: " filename
 read -p "Enter a pattern to replace: " pattern
