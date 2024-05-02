@@ -1,4 +1,5 @@
 #!/bin/sh
+# check if palindrom or not
 echo "Enter String:"
 read str
 rev_str=`echo $str | rev`
