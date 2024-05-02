@@ -1,3 +1,4 @@
+#!/bin/sh
 echo -n "Enter year (YYYY): "
 read y
 a=`echo "$y%4" | bc`
