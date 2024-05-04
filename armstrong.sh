@@ -1,4 +1,5 @@
-#! /bin/sh
+#!/bin/sh
+# check if a number is armstrong or not
 echo "Enter number:"
 read n
 temp=$n

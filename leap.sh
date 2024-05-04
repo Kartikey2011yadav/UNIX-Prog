@@ -1,3 +1,5 @@
+#!/bin/sh
+# check if entered year is leap year or not
 echo -n "Enter year (YYYY): "
 read y
 a=`echo "$y%4" | bc`

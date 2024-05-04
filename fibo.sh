@@ -1,11 +1,12 @@
-#! /bin/sh
+#!/bin/sh
+# print fibonacchi series 
 echo "Enter number of terms:"
 read n
 i=0
 a=0
 b=1
 c=0
-echo "The Fibonaci series is:"
+echo "The Fibonacci series is:"
 echo $a
 echo $b
 while [ $i -ne $n ]

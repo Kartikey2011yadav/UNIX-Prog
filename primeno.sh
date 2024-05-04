@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Check if prime number or not
 read -p "Enter a number: " num
 if [ $num -lt 2 ]
 then
